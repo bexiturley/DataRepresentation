@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Library>
+	<Book category="Technical">
+        <ISBN>123456</ISBN>
+        <Title>History of Internal Combustion Engine</Title>
+        <Author>Tom T</Author>
+    </Book>
+
+	<Book category="Technical">
+        <ISBN>4567</ISBN>
+        <Title>Haynes Repair Manual Audi</Title>
+        <Author>Anon</Author>
+    </Book>
+
+    <Book category="Cookery">
+        <ISBN>5678</ISBN>
+        <Title>How to Boil Water</Title>
+        <Author>Jamie Ramsey</Author>
+    </Book>
+
+    <Book category="Cookery">
+        <ISBN>78910</ISBN>
+        <Title>Nice Dog Treats</Title>
+        <Author>Bród+Síoda</Author>
+    </Book> 
+
+
+
+</Library>       
