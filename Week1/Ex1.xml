@@ -1,33 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Library>
-	<Book category="Technical">
-        <ISBN>123456</ISBN>
-        <Title>History of Internal Combustion Engine</Title>
-        <Author>Tom T</Author>
-    </Book>
+	<Title Category="Technical">
+		<Book ISBN ="123456">  		
+        	<Title>History of Internal Combustion Engine</Title>
+        	<Author>Tom T</Author>
 
-	<Book category="Technical">
-        <ISBN>4567</ISBN>
-        <Title>Haynes Repair Manual Audi</Title>
-        <Author>Anon</Author>
-    </Book>
+		</Book> 
+		
+		<Book ISBN ="4567">  		
+        	<Title>Haynes Repair Manual Audi</Title>
+        	<Author>Anon</Author> 
 
-    <Book category="Cookery">
-        <ISBN>5678</ISBN>
-        <Title>How to Boil Water</Title>
-        <Author>Jamie Ramsey</Author>
-    </Book>
-
-    <Book category="Cookery">
-        <ISBN>78910</ISBN>
-        <Title>Nice Dog Treats</Title>
-        <Author>Bród+Síoda</Author>
-    </Book> 
-
-
-
-</Library>    
-
+		</Book> 
+	</Title>
+	
+	<Title Category="Cookery">
+		<Book ISBN ="5678">  		
+        	<Title>How to Boil Water</Title>
+        	<Author>Jamie Ramsey</Author>
+		</Book> 
+		
+		<Book ISBN ="78910">  		
+        	<Title>Nice Dog Treats</Title>
+       	 	<Author>Bród+Síoda</Author>
+		</Book> 
+	</Title>
+</Library>
 
 <!--Exercise 1.1
 Create an XML file that stores data for a library. 
