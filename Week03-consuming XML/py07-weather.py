@@ -22,4 +22,4 @@ for listing in listings:
         print (mps)
     #gotta go
 
-#print (soup.prettify())
+print (soup.prettify())

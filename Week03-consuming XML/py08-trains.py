@@ -29,8 +29,8 @@ with  open('week03_train.csv', mode='w') as train_file:
     listings = soup.findAll("objTrainPositions")
 
     for listing in listings:
-        #print(listing)
-        print(listing.TrainLatitude.string)
+        print(listing)
+        #print(listing.TrainLatitude.string)
         # or
         # print(listing.find('TrainLatitude').string)
         lat =float( listing.TrainLatitude.string)
@@ -41,4 +41,4 @@ with  open('week03_train.csv', mode='w') as train_file:
             train_writer.writerow(entryList)
             
 
-#print (soup.prettify())
+print (soup.prettify())
